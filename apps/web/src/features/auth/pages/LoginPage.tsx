@@ -6,12 +6,12 @@ export function LoginPage() {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <div className={styles.brand}>
+        {/* <div className={styles.brand}>
           <div className={styles.brandIcon}>
             <LockIcon />
           </div>
           <p className={styles.brandName}>WhisperBox</p>
-        </div>
+        </div> */}
 
         <h1 className={styles.title}>Sign in</h1>
 
