@@ -1,0 +1,53 @@
+.tgBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.tgIcon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8f5fd;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(34,158,217,0.10);
+}
+
+.tgBrandName {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #229ED9;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.tgCard {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 40px 32px 32px 32px;
+  box-shadow: 0 4px 32px rgba(34,158,217,0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.tgTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.tgFooter {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+}
